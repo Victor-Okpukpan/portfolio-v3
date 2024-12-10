@@ -1,4 +1,5 @@
 import Experience from '@/components/experience'
+import Hackathons from '@/components/hackathons'
 import Hero from '@/components/hero'
 import Skills from '@/components/skills'
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Skills />
       <Experience />
+      <Hackathons />
     </div>
   )
 }
