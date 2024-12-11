@@ -30,6 +30,7 @@ export default function Header() {
         <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
           Victor_The Oracle
         </Link>
+        <div className="flex items-center space-x-4">
         <ul className="hidden md:flex space-x-6">
           {navItems.map((item) => (
             <li key={item.name}>
@@ -46,6 +47,7 @@ export default function Header() {
         >
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
         </button>
+        </div>
       </nav>
     </header>
   )
