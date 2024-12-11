@@ -1,3 +1,4 @@
+"use client"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 const experiences = [
@@ -24,15 +25,17 @@ export default function Experience() {
       <h2 className="text-3xl font-bold mb-8">Experience</h2>
       <div className="space-y-6">
         {experiences.map((exp, index) => (
-          <Card key={index}>
-            <CardHeader>
-              <CardTitle>{exp.title}</CardTitle>
-              <CardDescription>{exp.period}</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>{exp.description}</p>
-            </CardContent>
-          </Card>
+          <div key={index}>
+            <Card>
+              <CardHeader>
+                <CardTitle>{exp.title}</CardTitle>
+                <CardDescription>{exp.period}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>{exp.description}</p>
+              </CardContent>
+            </Card>
+          </div>
         ))}
       </div>
       <div className="mt-8">

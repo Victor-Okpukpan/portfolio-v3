@@ -1,3 +1,4 @@
+"use client"
 import { Progress } from '@/components/ui/progress'
 
 const skills = [
@@ -18,7 +19,7 @@ export default function Skills() {
   return (
     <section id="skills" className="container mx-auto px-4">
       <h2 className="text-3xl font-bold mb-8">Skills</h2>
-      {categories.map(category => (
+      {categories.map((category) => (
         <div key={category} className="mb-8">
           <h3 className="text-2xl font-semibold mb-4">{category}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
