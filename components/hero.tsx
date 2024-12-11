@@ -4,8 +4,8 @@ import { ArrowRight, Download } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center">
-      <div className="container mx-auto px-4">
+    <section id="home" className="min-h-screen md:min-h-[300px] flex items-center">
+      <div className="container mx-auto pt-24 px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/3 mb-8 md:mb-0">
             <Image
