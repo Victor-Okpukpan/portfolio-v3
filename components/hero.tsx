@@ -7,16 +7,16 @@ export default function Hero() {
     <section id="home" className="min-h-screen flex items-center">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0">
+          <div className="md:w-1/3 mb-8 md:mb-0">
             <Image
-              src="/avatar.png"
+              src="/pfp.jpg"
               alt="Victor Okpukpan"
               width={300}
               height={300}
-              className="rounded-full border-4 border-primary/20"
+              className="rounded-full mx-auto border-4 border-primary/20"
             />
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-2/3">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
               Victor Okpukpan
             </h1>

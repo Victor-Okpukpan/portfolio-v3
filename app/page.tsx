@@ -1,3 +1,4 @@
+import Contact from '@/components/contact'
 import Experience from '@/components/experience'
 import Hackathons from '@/components/hackathons'
 import Hero from '@/components/hero'
@@ -10,6 +11,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Hackathons />
+      <Contact />
     </div>
   )
 }

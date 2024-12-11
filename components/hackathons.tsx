@@ -16,7 +16,7 @@ const hackathons = [
     date: 'August 2024',
     project: 'Decentralized School Voting Platform',
     description: 'A decentralized voting platform for school Student Union Government (SUG) elections using smart contracts deployed on Arbitrum and leveraging WeaveDB for user profiles',
-    award: 'Best Privacy Solution',
+    award: '1st Place Builder Track',
     technologies: ['Solidity', 'Arbitrum', 'WeaveDb', 'NextJS'],
     impact: 'Ensured transparent, secure, and private voting processes for school elections, promoting democratic values and trust among students.',
   },
