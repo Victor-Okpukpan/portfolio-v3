@@ -31,7 +31,10 @@ export default function Skills() {
                     <span className="text-base font-medium">{skill.name}</span>
                     <span className="text-sm text-foreground/60">{skill.level}%</span>
                   </div>
-                  <Progress value={skill.level} className="h-2" />
+                  <Progress 
+                    value={skill.level} 
+                    className="h-2"
+                  />
                 </div>
               ))}
           </div>

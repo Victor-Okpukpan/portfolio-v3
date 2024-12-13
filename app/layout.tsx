@@ -9,7 +9,7 @@ import LoadingScreen from '@/components/LoadingScreen'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Victor Okpukpan - Solidity Smart Contract Developer | Blockchain Engineer',
+  title: 'Victor Okpukpan - Solidity Smart Contract Developer | Frontend Engineer',
   description: 'Portfolio of Victor Okpukpan, a Solidity Smart Contract Developer and Frontend Engineer specializing in EVM-compatible blockchain development',
 }
 
