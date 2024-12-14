@@ -18,16 +18,16 @@ export default function Hero() {
             />
           </div>
           <div className="md:w-2/3">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
+            <h1 className="text-4xl text-center md:text-left md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
               Victor Okpukpan
             </h1>
-            <h2 className="text-2xl md:text-3xl mb-6 text-foreground/80">
+            <h2 className="text-2xl text-center md:text-left md:text-3xl mb-6 text-foreground/80">
               Solidity Smart Contract Developer & Frontend Engineer
             </h2>
-            <p className="text-lg mb-8 text-foreground/60">
+            <p className="text-lg text-center md:text-left mb-8 text-foreground/60">
               Known as Victor_The Oracle in the web3 space, I specialize in EVM-compatible blockchain development and frontend engineering. With expertise in creating secure smart contracts and building intuitive user interfaces, I bring blockchain ideas to life with a focus on best practices and innovative solutions.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mx-auto w-max md:mx-0 md:w-auto">
               <Button asChild>
                 <a href="#projects">
                   View Projects <ArrowRight className="ml-2 h-4 w-4" />
