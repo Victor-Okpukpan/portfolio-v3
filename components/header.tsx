@@ -28,7 +28,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
-          Victor_The Oracle
+          Victor_TheOracle
         </Link>
         <div className="flex items-center space-x-4">
         <ul className="hidden md:flex space-x-6">

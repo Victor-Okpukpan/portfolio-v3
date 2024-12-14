@@ -25,7 +25,7 @@ export default function Hero() {
               Solidity Smart Contract Developer & Frontend Engineer
             </h2>
             <p className="text-lg text-center md:text-left mb-8 text-foreground/60">
-              Known as Victor_The Oracle in the web3 space, I specialize in EVM-compatible blockchain development and frontend engineering. With expertise in creating secure smart contracts and building intuitive user interfaces, I bring blockchain ideas to life with a focus on best practices and innovative solutions.
+              I specialize in EVM-compatible blockchain development and frontend engineering. With expertise in creating secure smart contracts and building intuitive user interfaces, I bring blockchain ideas to life with a focus on best practices and innovative solutions.
             </p>
             <div className="flex space-x-4 mx-auto w-max md:mx-0 md:w-auto">
               <Button asChild>
