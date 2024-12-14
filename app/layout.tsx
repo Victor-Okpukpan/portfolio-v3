@@ -11,6 +11,35 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Victor Okpukpan - Solidity Smart Contract Developer | Frontend Engineer',
   description: 'Portfolio of Victor Okpukpan, a Solidity Smart Contract Developer and Frontend Engineer specializing in EVM-compatible blockchain development',
+  keywords: 'Solidity, Smart Contracts, Blockchain Developer, Frontend Engineer, Web3, EVM, DApp Development, React, Next.js, Ethereum, Portfolio',
+  author: 'Victor Okpukpan',
+  openGraph: {
+    title: 'Victor Okpukpan - Solidity Smart Contract Developer | Frontend Engineer',
+    description: 'Portfolio of Victor Okpukpan, a Solidity Smart Contract Developer and Frontend Engineer specializing in EVM-compatible blockchain development',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://victortheoracle.xyz',
+    siteName: 'Victor Okpukpan Portfolio',
+    images: [
+      {
+        url: '/pfp.jpg',
+        width: 300,
+        height: 300,
+        alt: 'Victor Okpukpan',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Victor Okpukpan - Solidity Smart Contract Developer | Frontend Engineer',
+    description: 'Portfolio of Victor Okpukpan, a Solidity Smart Contract Developer and Frontend Engineer specializing in EVM-compatible blockchain development',
+    images: ['/pfp.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({
