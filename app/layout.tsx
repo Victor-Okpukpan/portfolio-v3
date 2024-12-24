@@ -13,6 +13,7 @@ export const metadata = {
   description: 'Portfolio of Victor Okpukpan, a Solidity Smart Contract Developer and Frontend Engineer specializing in EVM-compatible blockchain development',
   keywords: 'Solidity, Smart Contracts, Blockchain Developer, Frontend Engineer, Web3, EVM, DApp Development, React, Next.js, Ethereum, Portfolio',
   author: 'Victor Okpukpan',
+  metadataBase: new URL('https://victortheoracle.xyz'),
   openGraph: {
     title: 'Victor Okpukpan - Solidity Smart Contract Developer | Frontend Engineer',
     description: 'Portfolio of Victor Okpukpan, a Solidity Smart Contract Developer and Frontend Engineer specializing in EVM-compatible blockchain development',
@@ -39,7 +40,6 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({
