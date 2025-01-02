@@ -34,7 +34,7 @@ export default function Hero() {
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="/resume.pdf" download>
+                <a href="/Victor Okpukpan.pdf" download>
                   Download Resume <Download className="ml-2 h-4 w-4" />
                 </a>
               </Button>

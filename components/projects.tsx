@@ -118,7 +118,8 @@ const projects = [
       "Travel-to-earn platform enabling users to earn rewards by visiting locations and completing challenges created by other users.",
     technologies: ["Solidity", "Foundry", "Sei Network"],
     github: "https://github.com/Victor-Okpukpan/travllr-contract",
-    contractAddress: "0x724344ba0dd7cfa90c87d83fa5c4f0c6a0bb313f",
+    contractAddress: "0x724...313f",
+    // contractAddress: "0x724344ba0dd7cfa90c87d83fa5c4f0c6a0bb313f",
     role: "Smart Contract Developer",
     contributions:
       "Developed smart contracts for location creation, check-in completion verification, and reward distribution system using Solidity.",
