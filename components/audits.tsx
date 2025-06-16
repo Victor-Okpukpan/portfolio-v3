@@ -17,8 +17,8 @@ const audits = [
     mediumFindings: 5,
     lowFindings: 3,
     ranking: "136th",
-    description: "A decentralized protocol for automated asset management and yield optimization.",
-    technologies: ["Solidity", "Foundry", "Slither"],
+    description: "Real estate tokenization protocol for on-chain finance integration",
+    technologies: ["Solidity", "Hardhat"],
     reportLink: "https://codehawks.cyfrin.io/c/2025-02-raac/results?lt=contest&page=1&sc=reward&sj=reward&t=report",
     platformLogo: "/platforms/codehawks.png"
   },
@@ -30,8 +30,8 @@ const audits = [
     mediumFindings: 0,
     lowFindings: 0,
     ranking: "11th",
-    description: "A staking and vesting protocol for token distribution and reward management.",
-    technologies: ["Solidity", "Foundry", "Mythril"],
+    description: "Permissionless OTC derivatives protocol and clearing layer",
+    technologies: ["Solidity", "Foundry"],
     reportLink: "https://audits.sherlock.xyz/contests/838/report",
     platformLogo: "/platforms/sherlock.png"
   },
@@ -43,8 +43,8 @@ const audits = [
     mediumFindings: 1,
     lowFindings: 0,
     ranking: "15th",
-    description: "A yield farming protocol enabling users to earn rewards through various DeFi strategies.",
-    technologies: ["Solidity", "Foundry", "Slither"],
+    description: "Platform for leveraged yield farming strategies",
+    technologies: ["Solidity", "Foundry"],
     reportLink: "https://audits.sherlock.xyz/contests/791/report",
     platformLogo: "/platforms/sherlock.png"
   },
@@ -56,8 +56,8 @@ const audits = [
     mediumFindings: 1,
     lowFindings: 0,
     ranking: "74th",
-    description: "A liquidity provision protocol for the Ronin blockchain ecosystem.",
-    technologies: ["Solidity", "Foundry", "Aderyn"],
+    description: "Ronin liquid staking protocol with automated reward compounding",
+    technologies: ["Solidity", "Foundry"],
     reportLink: "https://code4rena.com/reports/2025-01-liquid-ron",
     platformLogo: "https://code4rena.com/images/c4-logo-icon.svg"
   },
@@ -70,8 +70,8 @@ const audits = [
     lowFindings: 0,
     insights: 2,
     ranking: "40th",
-    description: "A social trading platform for decentralized finance strategies.",
-    technologies: ["Solidity", "Foundry", "Slither"],
+    description: "Gamified DeFi protocol with interactive pool mechanics on Berachain",
+    technologies: ["Solidity", "Foundry"],
     reportLink: "https://reports.immunefi.com/yeet",
     platformLogo: "/platforms/immunefi.png"
   }
