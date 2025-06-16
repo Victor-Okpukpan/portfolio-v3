@@ -48,7 +48,7 @@ export default function Experience() {
         <ul className="list-disc list-inside space-y-2 text-foreground/80">
           <li>Expertise in identifying and mitigating smart contract vulnerabilities</li>
           <li>Strong background in both development and security research</li>
-          <li>Proven track record in securing DeFi protocols and protecting user funds</li>
+          <li>Proven track record in securing DeFi protocols and protecting user&apos;s funds</li>
           <li>Deep understanding of EVM-compatible blockchain ecosystems</li>
           <li>Proficient in using Foundry for smart contract development and testing</li>
         </ul>

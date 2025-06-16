@@ -35,7 +35,7 @@ export default function Contact() {
     <section id="contact" className="container mx-auto px-4 py-16">
       <h2 className="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
       <p className="text-center mb-8 text-lg text-foreground/80">
-        Looking to secure your smart contracts or build secure blockchain applications? I'm available for security audits, smart contract development, and consulting services.
+        Looking to secure your smart contracts or build secure blockchain applications? I&apos;m available for security audits, smart contract development, and consulting services.
       </p>
       <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 mb-12">
         <Button asChild variant="default" className="flex items-center">
