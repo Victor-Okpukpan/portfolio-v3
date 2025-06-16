@@ -12,14 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
@@ -36,7 +29,6 @@ const projects = [
     ],
     github: "https://github.com/Victor-Okpukpan/PassAR",
     liveDemo: "https://passar_arlink.arweave.net",
-    role: "Frontend Developer",
     contributions:
       "Built the frontend for the full-stack application including smart contract integration with AO, event creation flow, and ticket management system.",
     challenges:
@@ -59,7 +51,6 @@ const projects = [
     ],
     github: "https://github.com/Victor-Okpukpan/zendx",
     liveDemo: "https://zend.vercel.app",
-    role: "Frontend Developer",
     contributions:
       "Developed the frontend interface with email-based crypto transfer system using Peanut SDK and integrated Coinbase Onramp for fiat-to-crypto conversion.",
     challenges:
@@ -74,7 +65,6 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/Victor-Okpukpan/viraaly",
     liveDemo: "https://viraaly.xyz",
-    role: "Frontend Developer",
     contributions:
       "Developed the frontend interface, highlighting agency services, and designed a seamless user experience to communicate Viraaly's value in the web3 space.",
     challenges:
@@ -85,11 +75,10 @@ const projects = [
   {
     name: "Viraaly Waitlist",
     description:
-      "A waitlist platform for Viraaly’s meme services, enabling users to secure priority access to bespoke meme creations designed to amplify brand visibility in the web3 space.",
+      "A waitlist platform for Viraaly's meme services, enabling users to secure priority access to bespoke meme creations designed to amplify brand visibility in the web3 space.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
     github: "https://github.com/Victor-Okpukpan/viraaly-waitlist",
     liveDemo: "https://waitlist.viraaly.xyz",
-    role: "Frontend Developer",
     contributions:
       "Developed the frontend interface, enabling users to join the waitlist seamlessly, and integrated Supabase for real-time database management.",
     challenges:
@@ -104,7 +93,6 @@ const projects = [
     technologies: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/Victor-Okpukpan/RocketPup",
     liveDemo: "https://rocket-pup-zeta.vercel.app",
-    role: "Frontend Developer",
     contributions:
       "Built an engaging, space-themed landing page with interactive animations and token information display",
     challenges:
@@ -119,8 +107,6 @@ const projects = [
     technologies: ["Solidity", "Foundry", "Sei Network"],
     github: "https://github.com/Victor-Okpukpan/travllr-contract",
     contractAddress: "0x724...313f",
-    // contractAddress: "0x724344ba0dd7cfa90c87d83fa5c4f0c6a0bb313f",
-    role: "Smart Contract Developer",
     contributions:
       "Developed smart contracts for location creation, check-in completion verification, and reward distribution system using Solidity.",
     challenges:
@@ -191,25 +177,9 @@ export default function Projects() {
                     </Badge>
                   ))}
                 </div>
-                <p className="text-sm text-foreground/60 mb-2">
-                  Role: {project.role}
-                </p>
                 {project.contractAddress && (
                   <p className="text-sm text-foreground/60 mb-2">
                     Contract: {project.contractAddress}
-                  </p>
-                )}
-                {project.liveDemo && (
-                  <p className="text-sm text-foreground/60 mb-2">
-                    Demo:{" "}
-                    <a
-                      href={project.liveDemo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline"
-                    >
-                      {project.liveDemo}
-                    </a>
                   </p>
                 )}
               </CardContent>
@@ -230,29 +200,18 @@ export default function Projects() {
                     </a>
                   </>
                 )}
-                <Dialog>
-                  <DialogTrigger asChild>
-                    <Button variant="outline">Learn More</Button>
-                  </DialogTrigger>
-                  <DialogContent>
-                    <DialogHeader>
-                      <DialogTitle>{project.name}</DialogTitle>
-                      <DialogDescription>
-                        {project.description}
-                      </DialogDescription>
-                    </DialogHeader>
-                    <div className="mt-4">
-                      <h4 className="font-semibold mb-2">Contributions:</h4>
-                      <p className="text-foreground/60">
-                        {project.contributions}
-                      </p>
-                      <h4 className="font-semibold mt-4 mb-2">
-                        Technical Challenges:
-                      </h4>
-                      <p className="text-foreground/60">{project.challenges}</p>
-                    </div>
-                  </DialogContent>
-                </Dialog>
+                {project.liveDemo && (
+                  <Button variant="outline" asChild>
+                    <a
+                      href={project.liveDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center"
+                    >
+                      View Demo <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                )}
               </CardFooter>
             </Card>
           </motion.div>

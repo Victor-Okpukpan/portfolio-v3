@@ -5,19 +5,27 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 const skills = [
   {
-    category: 'Blockchain',
+    category: 'Blockchain Security',
     items: [
-      { name: 'Solidity', description: 'Develop smart contracts for DeFi protocols, NFT platforms, and custom blockchain solutions' },
-      { name: 'Foundry', description: 'Build, test, and deploy smart contracts with advanced testing and gas optimization techniques' },
-      { name: 'EVM Chains', description: 'Create cross-chain compatible dApps and implement bridging solutions' },
-      { name: 'Slither', description: 'Perform static analysis to identify vulnerabilities and optimize contract security' },
-      { name: 'Aderyn', description: 'Conduct in-depth smart contract audits and generate comprehensive security reports' },
-      { name: 'Smart Contract Security', description: 'Implement best practices for secure smart contract development and auditing' },
-      { name: 'Gas Optimization', description: 'Refine smart contract code to minimize gas costs and improve efficiency' },
+      { name: 'Smart Contract Auditing', description: 'Conduct comprehensive security assessments of smart contracts, identifying vulnerabilities and providing remediation strategies' },
+      { name: 'Vulnerability Assessment', description: 'Perform in-depth analysis of blockchain protocols and smart contracts to identify security risks' },
+      { name: 'Security Research', description: 'Research and analyze emerging threats in the blockchain ecosystem' },
+      { name: 'Static Analysis', description: 'Utilize tools like Slither, Mythril, and Aderyn for automated security analysis' },
+      { name: 'Formal Verification', description: 'Apply formal methods to verify smart contract correctness and security properties' },
+      { name: 'Security Best Practices', description: 'Implement and advocate for industry-leading security standards and practices' },
     ]
   },
   {
-    category: 'Frontend',
+    category: 'Smart Contract Development',
+    items: [
+      { name: 'Solidity', description: 'Develop secure and gas-efficient smart contracts for various blockchain platforms' },
+      { name: 'Foundry', description: 'Build, test, and deploy smart contracts with advanced testing and gas optimization techniques' },
+      { name: 'EVM Chains', description: 'Develop cross-chain compatible smart contracts and implement bridging solutions' },
+      { name: 'Gas Optimization', description: 'Optimize smart contract code for gas efficiency and cost reduction' },
+    ]
+  },
+  {
+    category: 'Frontend Development',
     items: [
       { name: 'React', description: 'Build interactive and responsive user interfaces for web3 applications' },
       { name: 'Next.js', description: 'Develop server-side rendered and statically generated web applications with optimal performance' },
@@ -61,7 +69,7 @@ export default function Skills() {
                     <CardTitle className="text-lg font-medium text-primary">{skill.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">{skill.description}</p>
+                    <p className="text-foreground/80">{skill.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>

@@ -3,19 +3,24 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const experiences = [
   {
-    title: 'Frontend Developer',
-    period: '2022 - Present',
-    description: 'Developing responsive and interactive web applications using modern frontend technologies. Specializing in React, Next.js, and integrating web3 functionality into traditional web apps.',
+    title: 'Blockchain Security Researcher',
+    period: '2024 - Present',
+    description: 'Conducting comprehensive security assessments of smart contracts and blockchain protocols. Specializing in identifying vulnerabilities, providing remediation strategies, and contributing to the security of DeFi protocols.',
   },
   {
-    title: 'Freelance Smart Contract Developer',
-    period: '2024 - Present',
-    description: 'Developing secure and efficient smart contracts for various blockchain projects. Specializing in DeFi protocols, NFT platforms, and custom blockchain solutions.',
+    title: 'Smart Contract Developer',
+    period: '2022 - Present',
+    description: 'Developing secure and gas-efficient smart contracts for various blockchain platforms. Implementing best practices in smart contract development and conducting internal security reviews.',
+  },
+  {
+    title: 'Frontend Developer',
+    period: '2022 - Present',
+    description: 'Building responsive and secure web3 applications with a focus on user experience and security. Integrating blockchain functionality into traditional web applications.',
   },
   {
     title: 'Cyfrin Updraft Ambassador',
     period: '2024 - Present',
-    description: 'Contributing to blockchain education and community growth. Sharing knowledge, mentoring aspiring developers, and promoting best practices in smart contract development.',
+    description: 'Contributing to blockchain security education and community growth. Sharing knowledge about smart contract security, mentoring aspiring developers, and promoting security best practices.',
   },
 ]
 
@@ -41,10 +46,11 @@ export default function Experience() {
       <div className="mt-8">
         <h3 className="text-xl font-semibold mb-4">Key Strengths</h3>
         <ul className="list-disc list-inside space-y-2 text-foreground/80">
-          <li>Solo development approach with strong problem-solving skills</li>
-          <li>In-depth understanding of EVM-compatible blockchain ecosystems</li>
-          <li>Expertise in smart contract optimization and gas efficiency</li>
-          <li>Strong focus on blockchain security best practices</li>
+          <li>Expertise in identifying and mitigating smart contract vulnerabilities</li>
+          <li>Strong background in both development and security research</li>
+          <li>Proven track record in securing DeFi protocols and protecting user funds</li>
+          <li>Deep understanding of EVM-compatible blockchain ecosystems</li>
+          <li>Proficient in using Foundry for smart contract development and testing</li>
         </ul>
       </div>
     </section>

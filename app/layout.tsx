@@ -9,18 +9,18 @@ import LoadingScreen from "@/components/LoadingScreen";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Victor Okpukpan | Solidity Developer & Frontend Engineer",
+  title: "Victor Okpukpan | Blockchain Security Researcher & Smart Contract Developer",
   description:
-    "Victor Okpukpan, a Solidity Smart Contract Developer, security researcher and Frontend Engineer specializing in EVM-compatible blockchain development.",
+    "Victor Okpukpan, a Blockchain Security Researcher, Smart Contract Developer, and Frontend Engineer specializing in smart contract auditing and secure blockchain development.",
   keywords: [
     "Victor Okpukpan",
     "Victortheoracle",
     "Victor the oracle",
-    "Solidity Developer",
-    "Smart Contract developer",
+    "Blockchain Security Researcher",
+    "Smart Contract Auditor",
+    "Smart Contract Developer",
     "Blockchain Developer",
     "Frontend Engineer",
-    "Frontend developer",
     "Web3 developer",
     "EVM developer",
     "DApp Developer",
@@ -33,9 +33,9 @@ export const metadata = {
   author: "Victor Okpukpan",
   metadataBase: new URL("https://victortheoracle.xyz"),
   openGraph: {
-    title: "Victor Okpukpan | Solidity Developer & Frontend Engineer",
+    title: "Victor Okpukpan | Blockchain Security Researcher & Smart Contract Developer",
     description:
-      "Victor Okpukpan, a Solidity Smart Contract Developer, security researcher and Frontend Engineer specializing in EVM-compatible blockchain development.",
+      "Victor Okpukpan, a Blockchain Security Researcher, Smart Contract Developer, and Frontend Engineer specializing in smart contract auditing and secure blockchain development.",
     type: "website",
     locale: "en_US",
     url: "https://victortheoracle.xyz",
@@ -51,9 +51,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Okpukpan | Solidity Developer & Frontend Engineer",
+    title: "Victor Okpukpan | Blockchain Security Researcher & Smart Contract Developer",
     description:
-      "Victor Okpukpan, a Solidity Smart Contract Developer, security researcher and Frontend Engineer specializing in EVM-compatible blockchain development.",
+      "Victor Okpukpan, a Blockchain Security Researcher, Smart Contract Developer, and Frontend Engineer specializing in smart contract auditing and secure blockchain development.",
     images: ["/pfp.jpg"],
   },
   robots: {
