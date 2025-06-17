@@ -11,7 +11,7 @@ const skills = [
       { name: 'Vulnerability Assessment', description: 'Perform in-depth analysis of blockchain protocols and smart contracts to identify security risks' },
       { name: 'Security Research', description: 'Research and analyze emerging threats in the blockchain ecosystem' },
       { name: 'Static Analysis', description: 'Utilize tools like Slither, Mythril, and Aderyn for automated security analysis' },
-      { name: 'Formal Verification', description: 'Apply formal methods to verify smart contract correctness and security properties' },
+      // { name: 'Formal Verification', description: 'Apply formal methods to verify smart contract correctness and security properties' },
       { name: 'Security Best Practices', description: 'Implement and advocate for industry-leading security standards and practices' },
     ]
   },

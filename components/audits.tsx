@@ -20,7 +20,8 @@ const audits = [
     description: "Real estate tokenization protocol for on-chain finance integration",
     technologies: ["Solidity", "Hardhat"],
     reportLink: "https://codehawks.cyfrin.io/c/2025-02-raac/results?lt=contest&page=1&sc=reward&sj=reward&t=report",
-    platformLogo: "/platforms/codehawks.png"
+    platformLogo: "/platforms/codehawks.png",
+    profileLink: "https://profiles.cyfrin.io/u/victortheoracle"
   },
   {
     project: "Symmio, Staking and Vesting",
@@ -33,7 +34,8 @@ const audits = [
     description: "Permissionless OTC derivatives protocol and clearing layer",
     technologies: ["Solidity", "Foundry"],
     reportLink: "https://audits.sherlock.xyz/contests/838/report",
-    platformLogo: "/platforms/sherlock.png"
+    platformLogo: "/platforms/sherlock.png",
+    profileLink: "https://audits.sherlock.xyz/watson/Victor_TheOracle"
   },
   {
     project: "Yieldoor",
@@ -46,7 +48,8 @@ const audits = [
     description: "Platform for leveraged yield farming strategies",
     technologies: ["Solidity", "Foundry"],
     reportLink: "https://audits.sherlock.xyz/contests/791/report",
-    platformLogo: "/platforms/sherlock.png"
+    platformLogo: "/platforms/sherlock.png",
+    profileLink: "https://audits.sherlock.xyz/watson/Victor_TheOracle"
   },
   {
     project: "Liquid Ron",
@@ -59,7 +62,8 @@ const audits = [
     description: "Ronin liquid staking protocol with automated reward compounding",
     technologies: ["Solidity", "Foundry"],
     reportLink: "https://code4rena.com/reports/2025-01-liquid-ron",
-    platformLogo: "https://code4rena.com/images/c4-logo-icon.svg"
+    platformLogo: "https://code4rena.com/images/c4-logo-icon.svg",
+    profileLink: "https://code4rena.com/@victortheoracle"
   },
   {
     project: "Yeet",
@@ -73,7 +77,8 @@ const audits = [
     description: "Gamified DeFi protocol with interactive pool mechanics on Berachain",
     technologies: ["Solidity", "Foundry"],
     reportLink: "https://reports.immunefi.com/yeet",
-    platformLogo: "/platforms/immunefi.png"
+    platformLogo: "/platforms/immunefi.png",
+    profileLink: "https://immunefi.com/profile/Victor_TheOracle"
   }
 ]
 
@@ -104,7 +109,7 @@ export default function Audits() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <Card className="h-full">
+            <Card>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
@@ -112,14 +117,21 @@ export default function Audits() {
                     <CardDescription>{audit.type}</CardDescription>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <Image
-                      src={audit.platformLogo}
-                      alt={audit.platform}
-                      width={24}
-                      height={24}
-                      className="rounded-full"
-                    />
+                    <a
+                      href={audit.profileLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:opacity-80 transition-opacity flex space-x-2"
+                    >
+                      <Image
+                        src={audit.platformLogo}
+                        alt={audit.platform}
+                        width={24}
+                        height={24}
+                        className="rounded-full"
+                      />
                     <Badge variant="outline">{audit.platform}</Badge>
+                    </a>
                   </div>
                 </div>
               </CardHeader>
